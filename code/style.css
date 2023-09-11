@@ -15,6 +15,7 @@ body{
 }
 .header-icon{
     font-size: 1.15rem;
+    font-weight: 580;
 }
 .header-user img{
     width: 50px;
@@ -57,13 +58,16 @@ body{
     align-items: baseline;
 }
 .amount{
-    font-size: 33px;
+    font-size: 2rem;
     font-weight: 600;
     margin-top: 0.55em;
 }
 .amount-kobo{
-    font-size: 25px;
+    font-size: 1.53rem;
     font-weight: 600;
+}
+.cashback{
+    margin: 0.7em 0;
 }
 .actions{
     display: flex;
