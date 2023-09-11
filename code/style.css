@@ -31,8 +31,8 @@ body{
     padding: 0.3em 0 1em;
 }
 .header-body2 i{
-    font-size: 28px;
-    margin-left: 2rem;
+    font-size: 25px;
+    margin-left: 1.3rem;
 }
 .payment{
     font-size: 0.7rem;
@@ -78,7 +78,7 @@ body{
 .actions i{
     background-color: white;
     color: rgb(0, 196, 140);
-    padding: 0.6em 0.75em;
+    padding: 0.8em 0.9em;
     border-radius: 5px;
 }
 .actions p{
@@ -94,7 +94,7 @@ body{
     border-radius: 9px;
 }
 .activity i{
-    background-color: rgba(0, 196, 141, 0.25);
+    background-color: rgba(0, 196, 141, 0.2);
     color: rgb(0, 196, 140);
     width: 40px;
     height: 40px;
@@ -102,7 +102,7 @@ body{
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    font-size: 16px;
+    font-size: 1.4rem;
 }
 .activity div{
     display: flex;
@@ -116,7 +116,7 @@ body{
     margin-top: 0.5em;
 }
 .ads i{
-    background-color: rgba(0, 196, 141, 0.35);
+    background-color: rgba(0, 196, 141, 0.2);
     color: rgb(0, 196, 140);
     border: 1px solid rgb(0, 196, 140);
     width: 40px;
