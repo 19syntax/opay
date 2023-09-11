@@ -2,11 +2,11 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    font-size: 97%;
+    font-size: 95%;
 }
 body{
     padding: 0.5em 1em;
-    background-color: rgb(223, 223, 223);
+    background-color: rgb(245, 245, 245);
 }
 .header-body{
     display: flex;
@@ -142,10 +142,11 @@ body{
     left: 0;
 }
 .foot div i{
-    font-size: 27px;
+    font-size: 23px;
     color: rgba(61, 61, 61, 0.699);
 }
 .foot div p{
+    font-size: 0.7em;
     margin-top: 0.3em;
     color: rgba(61, 61, 61, 0.801);
     text-align: center;
