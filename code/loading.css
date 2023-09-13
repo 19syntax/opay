@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #00b876;
+    color: rgb(15, 16, 41);
+}
+.container > img{
+    width: 6.5em;
+    border-radius: 50%;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 1.75rem;
+    margin-top: 1em;
+}
+label{
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    font-size: 0.75rem;
+    font-weight: 700;
+    margin-top: 2.3em;
+}
+label img{
+    width: 2.5em;
+}
