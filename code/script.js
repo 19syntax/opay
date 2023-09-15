@@ -8,12 +8,14 @@ const addMoney = document.querySelector('.add-money');
 jsEye.addEventListener('click', () => {
 
     if(amount.innerHTML === "****" && amountkobo.innerHTML === ""){
-        amount.textContent = "N869,435";
+        amount.textContent = "₦869,435";
         amountkobo.textContent = ".40"
-    } else if(amount.innerHTML === "N869,435" && amountkobo.innerHTML === ".40"){
+        // jsEye.innerHTML = '<i class="fa fa-eye-slash" aria-hidden="true"></i>'
+
+    } else if(amount.innerHTML === "₦869,435" && amountkobo.innerHTML === ".40"){
         amount.textContent = "****"
         amountkobo.textContent = ""
-        amount.style.fontSize = '33px'
+        amount.style.fontSize = '30px'
     }
 
 })
