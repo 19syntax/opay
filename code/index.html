@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
 </head>
 <body>
-    <main>
+    <main class="landing-page">
         <div class="header">
             <div class="header-body">
                 <div class="header-user">
@@ -27,7 +27,7 @@
             <div class="payment-body">
                 <div class="available">
                     <span>Available Balance</span>
-                    <i class="fa fa-eye" aria-hidden="true"></i>
+                    <i class="fa fa-eye" id="js-eye" aria-hidden="true"></i>
                 </div>
                 <div class="Transaction ">
                     <span>Transaction History</span>
@@ -35,8 +35,8 @@
                 </div>
             </div>
             <div class="balance-amount">
-                <p class="amount">&#8358;869,435</p>
-                <span class="amount-kobo">.40</span>
+                <p class="amount">****</p>
+                <span class="amount-kobo"></span>
             </div>
             <div class="cashback">& Cashback &#8358;15.00</div>
             <div class="actions">
@@ -128,6 +128,103 @@
             </div>
         </footer>
     </main>
+
+
+<main class="add-money none">
+    <div class="heading">
+        <i id="heading-arrow" class="fa fa-chevron-left" aria-hidden="true"></i>
+        <p>Add Money</p>
+    </div>
+    <div class="bank-transfer">
+        <div class="bank-transfer-item">
+            <div class="bank-transfer-body">
+                <i class="fa fa-home" aria-hidden="true"></i>
+                <div>
+                    <p class="body-heading">Bank Transfer</p>
+                    <p class="body-subheading">Add money via mobile or internet banking</p>
+                </div>
+            </div>
+            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+        </div>
+        <div class="dotted"></div>
+        <div class="bank-transfer-account">
+            <div class="body-account">
+                <p class="account-head">OPay Account Number</p>
+                <p class="account-number">810 128 4139</p>
+            </div>
+            <button class="copy-account">Copy</button>
+        </div>
+    </div>
+    <div class="or">
+        <div></div>
+        <p>OR</p>
+        <div></div>
+    </div>
+    <div class="bank-transfer-item2">
+        <div class="bank-transfer-body">
+            <i class="fa fa-home" aria-hidden="true"></i>
+            <div>
+                <p class="body-heading">Top-up with Card/Account</p>
+                <p class="body-subheading">
+                    Add money directly from your
+                    bank card or account
+                </p>
+            </div>
+        </div>
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+    </div>
+    <div class="bank-transfer-item2">
+        <div class="bank-transfer-body">
+            <i class="fa fa-home" aria-hidden="true"></i>
+            <div>
+                <p class="body-heading">Cash Deposit</p>
+                <p class="body-subheading">
+                    Fund your account with nearby
+                    merchants
+                </p>
+            </div>
+        </div>
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+    </div>
+    <div class="bank-transfer-item2">
+        <div class="bank-transfer-body">
+            <i class="fa fa-home" aria-hidden="true"></i>
+            <div>
+                <p class="body-heading">Bank USSD</p>
+                <p class="body-subheading">
+                    With other banks USSD code
+                </p>
+            </div>
+        </div>
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+    </div>
+    <div class="bank-transfer-item2">
+        <div class="bank-transfer-body">
+            <i class="fa fa-home" aria-hidden="true"></i>
+            <div>
+                <p class="body-heading">Request Money from Others</p>
+                <p class="body-subheading">
+                    Send a request to any Opay user
+                </p>
+            </div>
+        </div>
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+    </div>
+    <div class="bank-transfer-item2">
+        <div class="bank-transfer-body">
+            <i class="fa fa-home" aria-hidden="true"></i>
+            <div>
+                <p class="body-heading">Scan my QR Code</p>
+                <p class="body-subheading">
+                    Show QR code to any OPay user
+                </p>
+            </div>
+        </div>
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+    </div>
+    <div class="hide"></div>
+</main>
+     
     
 
 

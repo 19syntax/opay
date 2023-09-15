@@ -4,9 +4,9 @@
     font-family: 'Roboto', sans-serif;
     font-size: 98%;
 }
-body{
+.landing-page{
     padding: 0.5em 1em;
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(240, 240, 240);
 }
 .header-body{
     display: flex;
@@ -171,4 +171,112 @@ body{
     width: 30px;
     height: 30px;
     border-radius: 50%;
+}
+
+/* ADD MONEY */
+.add-money{
+    background-color: rgb(240, 240, 240);
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: white;
+    padding: 1.2em 1em;
+}
+.bank-transfer{
+    margin: 1em;
+    padding: 1.5em 1em;
+    background-color: white;
+    border-radius: 7px;
+}
+.bank-transfer-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.body-heading{
+    font-size: 0.95rem;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+}
+.body-subheading{
+    font-size: 0.83em;
+    color: rgba(61, 61, 61, 0.5);
+}
+.bank-transfer-item > i,
+.bank-transfer-item2 > i{
+    font-size: 1.2rem;
+    color: rgba(61, 61, 61, 0.45);
+}
+.dotted{
+    margin: 1.2em 0;
+    border: 1px dotted rgba(61, 61, 61, 0.45);
+    
+}
+.bank-transfer-account{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bank-transfer-body{
+    display: flex;
+    align-items: center;
+    gap: 0.9rem;
+}
+.bank-transfer-body i{
+    color: rgb(0, 148, 106);
+    font-size: 1.3rem;
+    background-color: rgba(0, 196, 141, 0.2);
+    padding: 0.5em;
+    border-radius: 50%;
+    border: 1px solid rgb(0, 148, 106);
+}
+.account-head{
+    font-size: 0.75em;
+    color: rgba(61, 61, 61, 0.5);
+    margin-bottom: 1em;
+}
+.account-number{
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+.copy-account{
+    padding: 0.4em 1em;
+    background-color: rgba(0, 196, 141, 0.2);
+    border: none;
+    color: rgb(0, 148, 106);
+}
+.or{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    color: rgba(61, 61, 61, 0.45);
+    text-align: center;
+    margin: 2rem 0;
+}
+.or div{
+    border: 1px dotted rgba(61, 61, 61, 0.45);
+    width: 30%;
+}
+.bank-transfer-item2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1em;
+    padding: 1.5em 1em;
+    background-color: white;
+    border-radius: 7px;
+}
+.hide{
+    padding-bottom: 3em;
+}
+.none,
+.landing-none{
+    display: none;
 }
